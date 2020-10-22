@@ -1,0 +1,306 @@
+{
+	"info": {
+		"_postman_id": "a84f22e5-cadd-42af-82a8-32507355bb58",
+		"name": "Squirro Api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:8000/create/",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "content-type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "x-app-id",
+						"value": "adf4c811",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "x-app-key",
+						"value": "38eef65a493be7a56abe4bc8ed1f09d7",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "x-remote-user-id",
+						"value": "0",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "postman-token",
+						"value": "fa71a67a-,-e015-1ccb-f9e7b4dd2424",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/create/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"create",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/delete/{UUID}",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "content-type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "x-app-id",
+						"value": "adf4c811",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "x-app-key",
+						"value": "38eef65a493be7a56abe4bc8ed1f09d7",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "x-remote-user-id",
+						"value": "0",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "postman-token",
+						"value": "fa71a67a-,-e015-1ccb-f9e7b4dd2424",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/delete/{UUID}",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"delete",
+						"{UUID}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/{UUID}",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "content-type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "x-app-id",
+						"value": "adf4c811",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "x-app-key",
+						"value": "38eef65a493be7a56abe4bc8ed1f09d7",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "x-remote-user-id",
+						"value": "0",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "postman-token",
+						"value": "fa71a67a-,-e015-1ccb-f9e7b4dd2424",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/{UUID}",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"{UUID}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/all",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "content-type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "x-app-id",
+						"value": "adf4c811",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "x-app-key",
+						"value": "38eef65a493be7a56abe4bc8ed1f09d7",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "x-remote-user-id",
+						"value": "0",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "postman-token",
+						"value": "fa71a67a-,-e015-1ccb-f9e7b4dd2424",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/all",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "(With Params) http://127.0.0.1:8000/search/this+is+a+sentence",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "content-type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "x-app-id",
+						"value": "adf4c811",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "x-app-key",
+						"value": "38eef65a493be7a56abe4bc8ed1f09d7",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "x-remote-user-id",
+						"value": "0",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "postman-token",
+						"value": "fa71a67a-,-e015-1ccb-f9e7b4dd2424",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"text\": \"This is a long text\"\r\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/search/this+is+a+sentence",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"search",
+						"this+is+a+sentence"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
